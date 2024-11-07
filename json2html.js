@@ -7,7 +7,7 @@ export default function json2html(data) {
       table += <td>${item.Name}</td>;
       table += <td>${item.Age}</td>;
       table += item.Gender ? <td>${item.Gender}</td> : <td></td>;
-      table += </tr>
+      table += </tr>;
     }
   
     table += </tbody></table>;
